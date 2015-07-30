@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "training.com.trandai.bananasignature"
+        minSdkVersion 8
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile files('libs/AudioKeySDK.jar')
+    compile files('libs/audiopass_api.jar')
+    compile files('libs/ftPkcs11.jar')
+    compile files('libs/iaik_jce.jar')
+    compile files('libs/SecureBlackbox.Base.jar')
+    compile files('libs/SecureBlackbox.HTTPClient.jar')
+    compile files('libs/SecureBlackbox.Office.jar')
+    compile files('libs/SecureBlackbox.PDF.jar')
+    compile files('libs/SecureBlackbox.PGP.jar')
+    compile files('libs/SecureBlackbox.PKI.jar')
+    compile files('libs/SecureBlackbox.PKIPDF.jar')
+    compile files('libs/SecureBlackbox.XML.jar')
+    compile files('libs/SecureBlackbox.XMLSecurity.jar')
+    compile files('libs/SecureBlackbox.ZIP.jar')
+}

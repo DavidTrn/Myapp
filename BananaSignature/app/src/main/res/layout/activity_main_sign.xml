@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewChooseFileType"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:weightSum="1"
+            android:background="@drawable/background_title">
+
+            <ImageButton
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/ibLogout"
+                android:background="@drawable/logout_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_viewchooseType"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_color"
+            android:paddingTop="80dp"
+            android:orientation="vertical">
+            <!--android:background="#4E9258"-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sign_pdf_button"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:id="@+id/btnSignPDF"
+                android:text="@string/sign_pdf_file" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/sign_office_button"
+                android:id="@+id/btnSignOffice"
+                android:text="@string/sign_offices_file"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/sign_xml_button"
+                android:id="@+id/btnSignXml"
+                android:text="@string/sign_xml_file"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewLogin"
+        android:background="@drawable/background_color"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/pano_signature" />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPIN"
+            android:background="@drawable/border_edittext"
+            android:textColorHint="#736F6E"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/content_notify_enterpin"
+            android:layout_gravity="center_horizontal" />
+
+        <requestFocus />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_button"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="@string/button_login"
+                android:id="@+id/btnLogin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/viewSign"
+        android:background="@drawable/background_color"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_title"
+            android:padding="5dp"
+            android:gravity="center_vertical">
+            <ImageButton
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back"
+                android:id="@+id/ib_back"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/title_dosign"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:paddingTop="50dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/path_file"
+                android:id="@+id/edtSrc"
+                android:layout_weight="1.17" />
+
+            <Button
+                android:layout_width="68dp"
+                android:layout_height="36dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/browse_button"
+                android:text="@string/browse"
+                android:textSize="10sp"
+                android:id="@+id/btnBrowseSrc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/linearLayout"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1"
+            android:id="@+id/linearLayout2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/place_save_file"
+                android:id="@+id/edtDes"
+                android:layout_weight="1.00" />
+
+            <Button
+                android:layout_width="68dp"
+                android:layout_height="36dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/browse_button"
+                android:text="@string/browse"
+                android:textSize="10sp"
+                android:id="@+id/btnBrowseDes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1"
+            android:id="@+id/linearLayout3">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:editable="false"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/show_list_cert"
+                android:id="@+id/edtCert"
+                android:layout_weight="1.00" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="54dp">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/sign_office_button"
+                android:text="@string/sign_button"
+                android:id="@+id/btnSign" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

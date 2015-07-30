@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Banana Signature</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_notify_enterpin">Nhắc nhở!</string>
+    <string name="content_notify_enterpin">Vui lòng nhập mã PIN</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="title_init_error">Lỗi!</string>
+    <string name="content_init_error">Không thể kết nối tới Audiopass</string>
+    <string name="content_login">Đang đăng nhập...</string>
+    <string name="notify_connect_audiopass">Vui lòng kết nối Audiopass</string>
+    <string name="title_notify">Thông báo</string>
+    <string name="content_notify_cannot_sign">Vui lòng kiểm tra thông tin đăng nhập của bạn</string>
+    <string name="logout">Thoát</string>
+    <string name="title_viewchooseType">Chọn loại file</string>
+    <string name="sign_pdf_file">Ký file PDF</string>
+    <string name="sign_offices_file">Ký file offices</string>
+    <string name="sign_xml_file">Ký file XML</string>
+    <string name="title_dosign">Thực hiện ký</string>
+    <string name="path_file">File cần ký</string>
+    <string name="place_save_file">Nơi lưu file đã ký</string>
+    <string name="browse">Chọn</string>
+    <string name="back">Quay lại</string>
+    <string name="signin">Đang thực hiện ký...</string>
+    <string name="sign_button">Ký</string>
+    <string name="name_file_sign">Vui lòng đặt tên file đã ký</string>
+    <string name="title_complete">Hoàn thành</string>
+    <string name="content_signed">Đã ký xong</string>
+    <string name="choose_folder">Chọn thư mục này</string>
+    <string name="intall_file_manager">Vui lòng cài đặt File Manager</string>
+    <string name="connecting_audiopass">Đang kết nối Audiopass...</string>
+    <string name="notice_selected_sign_pdf">Bạn vừa chọn ký file PDF</string>
+    <string name="notice_selected_sign_offices">Bạn vừa chọn ký file Offices</string>
+    <string name="notice_selected_sign_xml">Bạn vừa chọn ký file xml</string>
+    <string name="notice_check_filesign_location">Vui lòng chọn đường dẫn file cần ký</string>
+    <string name="notice_choose_location_fielsigned">Vui lòng chọn nơi lưu file đã ký</string>
+    <string name="notice_choose_certificate">Vui lòng chọn chứng thư số</string>
+    <string name="warning_not_correct_pdffile">File bạn chọn không phải file PDF, vui lòng chọn lại</string>
+    <string name="warning_not_correct_officefile">File bạn chọn không phải file Offices, vui lòng chọn lại</string>
+    <string name="warning_not_correct_xmlfile">File bạn chọn không phải file xml, vui lòng chọn lại</string>
+    <string name="notice_name_filesign">Vui lòng đặt tên file đã ký</string>
+    <string name="show_list_cert">Nhấp vào đây để chọn chứng thư số</string>
+    <string name="title_certificates">Chứng thư số</string>
+    <string name="action_settings">Settings</string>
+</resources>
